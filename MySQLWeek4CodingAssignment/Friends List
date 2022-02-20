@@ -1,0 +1,15 @@
+create database if not exists data_to_sell;
+drop table if exists money_or_user;
+drop table if exists post;
+drop table if exists comment_;
+
+use data_to_sall;
+
+create table money_or_user (
+id int not null auto_increment,
+username varchar (10) not null,
+favorite_food varchar (20),
+email varchar (20) not null,
+password_ varchar (20) not null,
+primary key (id)
+);
